@@ -1,0 +1,236 @@
+ <!DOCTYPE html>  
+ <!-- Developed by David Penner, penner75@myumanitoba.ca -->
+ <html>
+	<head>
+		 <title>Winnipeg Volleyball</title>
+		 <link rel="stylesheet" href="WV.css">
+		 <meta name="viewport" content="width=device-width,initial-scale=1.0"
+		  content="text/html; charset=UTF-8">
+		  
+			<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+			<link rel="manifest" href="/site.webmanifest">
+			<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+			<meta name="msapplication-TileColor" content="#da532c">
+			<meta name="theme-color" content="#ffffff">
+			
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="WV.js"></script>
+	</head>
+
+	<body>
+		<p id="banner"><span><img id="vball-icon" src="vball-icon.png" style="background-color:transparent;"></span>Welcome to Winnipegvolleyball.ca!</p>
+		
+	<div class="flex-container" id="Nav-Bar"> 
+					<div class="boxed dropdown" onclick="hide()">Tournaments
+						<div class="dropdown-content">
+							<a href="#Court 4's">Court 4's</a>
+							<a href="#Court 6's">Court 6's</a>
+							<a href="#Beach">Beach</a>
+						</div>
+					</div>
+					<div class="boxed dropdown">Leagues
+						<div class="dropdown-content">
+							<a href="#Leagues" onclick="show(Leagues)" >Court</a>
+							<a href="#Leagues">Indoor Beach</a>
+							<a href="#Leagues">Outdoor Beach</a>
+						</div>
+					</div>
+					<div class="boxed dropdown">Resources
+						<div class="dropdown-content">
+							<a href="#Links/Various">Links/Various</a>
+							<a href="#Picture Gallery">Picture Gallery</a>
+							<a href="#Past Tournaments">Past Tournaments</a>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				
+		<div id="container">
+				<div class="Announcements">
+					<ul  id="Announcements">Announcements
+							<li>New Tournament dates announced below</li>
+							<li>NEW indoor beach volleyball league</li>
+							<li style="color:red">Sun of a Beach Tournaments are discontinued</li>
+					</ul>
+				</div>
+				<h1 class="section-header" id="Court 4's">COED 4's Tournaments <span><button>+</button></span></h1>
+				<div  class="flex-container section-content">	
+					<ul><div class="list-header">2018</div>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/september_29_2018.html">Saturday, Sept 29th - Victor Wyatt - cancelled </a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/october_27_2018.html"> Saturday, Oct 27th - Victor Wyatt</a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/november_24_2018.html"> Saturday, Nov 24th -  Victor Wyatt </a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/december_15_2018.html">Saturday, Dec 15th -  Victor Wyatt</a></li>
+					</ul>
+					<ul><div class="list-header">2019</div>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/january_12_2019.html">Saturday, Jan 12th -  Victor Wyatt</a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/feb_02_2019.html">Saturday, Feb 2nd -  Victor Wyatt </a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/march_23_2019.html">Saturday, March 23rd -  Victor Wyatt </a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/april_13_2019.html">Saturday, April 13th -  Victor Wyatt </a></li>
+							<li><a href="http://www.winnipegvolleyball.ca/tournaments/may_4_2019.html">Saturday, May 4th -  Nelson Mac </a></li>
+							<li>Saturday, May 25th -  Victor Wyatt</li>
+					</ul>
+				</div>
+				<hr>
+				<h1  class="section-header" id="Court 6's">Court 6's Tournaments<span><button>+</button></h1>
+				<div class="flex-container section-content">
+					<ul><div class="list-header">COED 6's Tournaments</div>
+							<li><a href="mailto:marianne.salangsang@wcvl.ca"> Inner Ninjas - Sept 22nd 2018</a></li>
+					</ul>
+					<ul><div class="list-header">Women 6's Tournaments</div>
+					</ul>
+				</div>
+				<hr>
+				<h1  class="section-header" id="Beach">Beach Tournaments<span><button>+</button></h1>
+				<div class="flex-container section-content">
+					<ul><div class="list-header">Indoor Tournaments</div>
+							<li><a href="https://www.thebvc.ca/events/king-queen-of-the-beach/">KOTB Men's and Women's 2's - The Beach - Sept 29th 2018</a></li>
+							<li><a href="https://www.thebvc.ca/event/play-til-extinct/">Play Til Extinct 2's - The Beach -  Friday, October 12th 2018</a></li>
+							<li><a href="https://dakotacc.com/212/beach-volleyball">Beach - Sept 29th
+								New for 2019 Dakota CC Beach volleyball league! Coed 4's and Coed 6's.</a> </li>
+					</ul>
+					
+					<ul><div class="list-header">Outdoor Tournaments</div>
+					</ul>
+				</div>
+				<hr>
+				<h1 class="section-header" id="Leagues">Leagues<span><button>+</button></h1>
+					<div class="flex-container section-content">
+						<ul><div class="list-header">Indoor Court</div>
+								<li><a href="http://www.wcvsl.ca/"> Winnipeg Coed Volleyball Spring League</a></li>
+								<li><a href="http://www.wcvl.ca/"> Winnipeg Coed Volleyball League</a></li>
+								<li><a href="http://www.wmvl.com/"> Winnipeg Men's Volleyball League</a></li>
+								<li><a href="http://www.wwvl.ca/"> Winnipeg Women's Volleyball League</a></li>
+								<li><a href="https://www.volleyballwinnipeg.ca/page/show/3124408-volleyball-winnipeg"> WMVA Adult Coed 4's and Coed 6's League</a></li>
+						</ul>
+						<ul><div class="list-header">Indoor Beach</div>
+							<li><a href="https://www.thebvc.ca/league-details-2/">Sand Coed 4's and Women's 4's league - The Beach VB Center</a></li>
+						</ul>
+						<ul><div class="list-header">Outdoor Beach</div>
+							<li><a href="https://www.beach4life.ca/">Beach 4 Life - League and tournaments - MGRP</a></li>
+							<li><a href="http://www.volleyballmanitoba.ca/vm-summer-series-and-beach-bandit-beach-volleyball-leagues-return-at-adrenaline-adventures/">VBMB Summer Series</a></li>
+							<li><a href="http://www.beachbandit.ca/">Beach Bandits BVB league - Maple Grove Rugby Park</a></li>
+						</ul>
+					</div>	
+					
+				<hr>
+				<ul><h1 class="section-header" id="Links/Various">Links/Various<span><button>+</button></h1>
+					<div class="section-content">
+						<li><a href="http://www.ywinnipeg.ca/schedules/#/?session=0">YMCA pick-up volleyball around the city</a></li>
+						<li><a href="http://www.volleyballmanitoba.ca/">Volleyball Manitoba</a></li>
+						<li><a href="http://winnipegvolleyball.ca/PDF/Scorecards_PC_Italic_freeserif.pdf">Scorecards Template (pdf)</a></li>
+						<li><a href="http://winnipegvolleyball.ca/whereisyourmoneygoing.html">Costs associated with running a tournament</a></li>
+						<li><a href="http://www.homerunsports.com/">Homerun Sports - The place to get all your Volleyball Gear</a></li>
+					</div>
+				</ul>
+				<hr>
+				<ul><h1 class="section-header" id="Picture Gallery">Picture Gallery<span><button>+</button></h1>
+					<div class="section-content">
+						<li><a href="http://www.winnipegvolleyball.ca/tournaments/Jan0712tourney/gallery.html"> 2012 - Old Rules (Jan 7th)</a></li>
+						<li><a href="http://www.winnipegvolleyball.ca/tournaments/Dec_10_2011/tournament_pics.html"> 2011 - Coed 4's (Dec 10th)</a></li>
+					</div>
+				</ul>
+				<hr>
+				<h1 class="section-header" id="Past Tournaments">Past <acronym title="Winnipeg Volleyball Tournament Promotions">WVTP</acronym> Tournaments<span><button>+</button></h1>
+						<div class="section-content">
+							<div class="list-header">Tournament's Organized to date: 64</div>
+							<div class="flex-container" id="past-tournaments">
+							
+								<ul><div class="list-header">2019</div>
+									<li><a href=""></a></li>
+								</ul>
+								<ul><div class="list-header">2018</div>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/january_10_2018.html">Jan 10</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/feb_17_2018.html">Feb 17</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/march_17_2018.html">Mar 17</a></li>
+								</ul>
+								<ul><div class="list-header">2017</div>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/Jan_07_2017.html">Jan 7</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/Jan_21_2017.html">Jan 21</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/mar_25_2017.html">Mar 25</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/may_6_2017.html">May 6</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/sept_16_2017.html">Sept 16</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/sept_16_2017.html" title="Bernie Wolfe">Sept 16</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/october_28_2017.html">Oct 28</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/november_25_2017.html">Nov 25</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/december_16_2017.html">Dec 16</a></li>
+								</ul>
+								<ul><div class="list-header">2016</div>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/january_09_2016.html'">Jan 9</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/january_23_2016.html">Jan 23</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/february_06_2016.html">Feb 6</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/march_05_2016.html">Mar 5</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/march_26_2016.html">Mar 26</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/april_09_2016.html">Apr 9</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/april_23_2016.html">Apr 23</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/april_23_2016.html">Apr 30</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/may_14_2016.html">May 14</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/sept_10_2016.html">Sept 10</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/oct_8_2016.html">Oct 8</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/oct_22_2016.html">Oct 22</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/Nov_12_2016.html">Nov 12</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/Nov_26_2016.html">Nov 26</a></li>
+								</ul>
+								<ul><div class="list-header">2015</div>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/jan_17_2015.html">Jan17</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/jan_31_2015.html" title="(action shots)">Jan 3</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/march_7_2015.html">Mar 7</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/march_14_2015.html">Mar 14</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/april_04_2015.html">Apr 4</a></li>
+									<li><a href="http://winnipegvolleyball.ca/Tournaments/april_19_2015.html">Apr 19</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/october_10_2015.html">Oct 10</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/Tournaments/october_24_2015.html">Oct 24</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/Tournaments/november_14_2015.html">Nov 14</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/Tournaments/november_28_2015.html">Nov 28</a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/Tournaments/december_12_2015.html">Dec 12</a></li>
+								</ul>
+								<ul><div class="list-header">2014</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_feb_01_14.html">Feb 1</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_mar_15_14.html">Mar 15 </a></li>
+									<li><a href="http://www.winnipegvolleyball.ca/tournaments/coed_6_april_11_14.html">Apr 11</a></li>
+									<li><a href="http://winnipegvolleyball.ca/Tournaments/coed_4_oct_25_14.html">Oct 25</a></li>
+									<li><a href="http://winnipegvolleyball.ca/Tournaments/nov_29_2014.html">Nov 29</a></li>
+								</ul>
+								<ul><div class="list-header">2013</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4s_01_19_2013.html'">Jan 19</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4s_03_16_2013.html">Mar 16</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4s_5_4_13.html">May 4</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4s_10_26_2013.html">Oct 26</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_12_14_13.html">Dec 14</a></li>
+								</ul>
+								<ul><div class="list-header">2012</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/old_rules_2012.html" title="OLD RULES">Jan 7</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/feb_04_2012.html">Feb 4</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/march_17_2012.html" title="St Patrick's Day">Mar 17</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4s_10_20_2012.html">Oct 20 </a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/nov_25_2012.html">Nov 25</a></li>
+								</ul>
+								<ul><div class="list-header">2011</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_jan_15_2011.html">Jan 15</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/Feb_20_2011.html">Feb 20</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_march_5_2011.html">Mar 5</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_December_10_2011.html">Dec 10</a></li>
+								</ul>
+								<ul><div class="list-header">2010</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_Feb_27th.html">Feb 27</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_march_13.html">Mar 13</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/Coed_6_April_24.html">Apr 24</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_october_09_2010.html">Oct 9</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/old_rules_nov_6_2010.html" title="OLD RULES">Nov 6</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/coed_4_December_18_2010.html">Dec 18</a></li>
+								</ul>
+								<ul><div class="list-header">2009</div>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/holy_crap_its_winter.html">Dec 12</a></li>
+									<li><a href="http://winnipegvolleyball.ca/tournaments/Nov_7th_old_rules.html" title="OLD RULES">Nov 07</a></li>
+								</ul>
+							</div>
+						</div>
+		</div>
+		
+		<p id="bottom">If you have comments, suggestions, or an event you need to add/modify, contact Patrick at 
+				<a href="mailto:winnipegvolleyball@shaw.ca" style="color:#ccffff;">winnipegvolleyball@shaw.ca</a></p>
+	 </body>
+ </html>
